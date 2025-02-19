@@ -142,10 +142,10 @@ footer #htmlcss {
     font-weight: 400;
     font-style: normal;
 }
-.josefin-sans-<uniquifier> {
+.josefin-sans {
   font-family: "Josefin Sans", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
 }
 .alata-regular {

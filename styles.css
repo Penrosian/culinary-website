@@ -20,6 +20,27 @@ footer #htmlcss {
     margin: 0px;
 }
 
+/* IDs */
+#globalnav {
+    width: 100%;
+    text-align: justify;
+    font-size: 16pt;
+    background-color: #7DCFB6;
+    border-bottom: 2px solid black;
+}
+#globalnav a:link {
+    color: black;
+}
+#globalnav a:visited {
+    color: black;
+}
+#globalnav a:hover {
+    color: cornflowerblue;
+}
+#globalnav a:active {
+    color: blue;
+}
+
 /* Classes */
 .nomargin {
     margin: 0px;

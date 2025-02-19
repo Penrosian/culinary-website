@@ -1,4 +1,7 @@
 /* Global styles */
+body {
+    background-color: #ECE4B7;
+}
 a {
     color: cornflowerblue;
 }
@@ -8,7 +11,7 @@ footer #htmlcss {
     background-color: rgb(0,0,0) !important;
     border: 2px solid !important;
     padding: 5px !important;
-    width: fit-content !important;
+    width: 100% !important;
     color: white !important;
     text-align: center;
 }
@@ -112,17 +115,17 @@ footer #htmlcss {
     font-style: normal;
 }
 .color1 {
-    background-color: #F87575;
+    background-color: #FC9F5B;
 }
 .color2 {
-    background-color: #FFA9A3;
+    background-color: #FBD1A2;
 }
 .color3 {
-    background-color: #B9E6FF;
+    background-color: #ECE4B7;
 }
 .color4 {
-    background-color: #5C95FF;
+    background-color: #7DCFB6;
 }
 .color5 {
-    background-color: #7E6C6C;
+    background-color: #33CA7F;
 }

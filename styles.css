@@ -23,6 +23,7 @@ footer #htmlcss {
 /* IDs */
 #globalnav {
     width: 100%;
+    height: 5vh;
     text-align: justify;
     font-size: 16pt;
     background-color: #7DCFB6;

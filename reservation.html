@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>template</title>
+        <title>Reservation - ACC Culinary</title>
         <script src="src/js/init.js"></script>
         <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
         <link href="styles.css" rel="stylesheet" type="text/css">
@@ -9,6 +9,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-
+        <nav id="globalnav"><a href=".">Home</a> <a href="about-us.html">About Us</a> <a href="menu.html">Menu</a> <a href="order.html">Order</a> Make a reservation <a href="feedback.html">Give Feedback</a></nav>
+        <div class="color5 blackborder" style="height: 95vh; border-top: 0px;">
+        <h1>Make a reservation</h1>
+        <form action="https://httpbin.org/post" method="post">
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email">
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+        </div>
     </body>
 </html>

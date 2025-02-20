@@ -18,16 +18,21 @@ footer #htmlcss {
     color: black !important;
     text-align: center;
     margin: 0px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 /* IDs */
 #globalnav {
-    width: 100%;
+    display: flex;
+    width: 98vw;
     height: 5vh;
-    text-align: justify;
+    justify-content: space-between;
     font-size: 16pt;
     background-color: #7DCFB6;
     border-bottom: 2px solid black;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 #globalnav a:link {
     color: black;

@@ -3,9 +3,11 @@ body {
     background-color: #ECE4B7;
     margin: 0px;
 }
+
 p {
     margin: 5px;
 }
+
 a {
     color: cornflowerblue;
 }
@@ -34,15 +36,19 @@ footer #htmlcss {
     padding-left: 1vw;
     padding-right: 1vw;
 }
+
 #globalnav a:link {
     color: black;
 }
+
 #globalnav a:visited {
     color: black;
 }
+
 #globalnav a:hover {
     color: cornflowerblue;
 }
+
 #globalnav a:active {
     color: blue;
 }
@@ -51,16 +57,18 @@ footer #htmlcss {
 .nomargin {
     margin: 0px;
 }
+
 .grid {
     display: grid;
     grid-template: 1fr 3fr 1fr / 1fr 3fr 1fr;
     gap: 2px;
     margin: 0px;
     padding: 0px;
-    background-color: black; 
+    background-color: black;
     border: 2px solid black;
     color: black;
 }
+
 .fsgrid {
     display: grid;
     grid-template: 1fr 3fr 1fr / 1fr 3fr 1fr;
@@ -73,6 +81,7 @@ footer #htmlcss {
     border: 2px solid black;
     color: black;
 }
+
 .trilayergrid {
     display: grid;
     grid-template: 1fr 3fr 1fr / 1fr 1fr;
@@ -85,6 +94,7 @@ footer #htmlcss {
     border: 2px solid black;
     color: black;
 }
+
 .dualcolumngrid {
     display: grid;
     grid-template: 1fr 4fr / 1fr 1fr;
@@ -97,25 +107,31 @@ footer #htmlcss {
     border: 2px solid black;
     color: black;
 }
+
 .gridhead {
     grid-column: 1 / span 3;
     padding: 5px;
     text-align: center;
 }
+
 .gridleft {
     text-align: center;
 }
+
 .gridmain {
     padding: 5px;
     text-align: center;
 }
+
 .gridright {
     text-align: center;
 }
+
 .gridfoot {
     grid-column: 1 / span 3;
     text-align: center;
 }
+
 .title {
     font-family: "Titan One", serif;
     font-weight: 400;
@@ -123,55 +139,68 @@ footer #htmlcss {
     font-size: 40pt;
     margin: 5px;
 }
+
 .tablenb td {
     border: none;
 }
+
 .tablenb th {
     border: none;
 }
+
 .border {
     border: 2px solid;
     padding: 5px;
 }
+
 .blackborder {
     border: 2px solid black;
     padding: 5px;
 }
+
 .font-courier {
     font-family: 'Courier New', Courier, monospace;
 }
+
 .font-impact {
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
 }
+
 .font-titan-one {
     font-family: "Titan One", serif;
     font-weight: 400;
     font-style: normal;
 }
+
 .josefin-sans {
-  font-family: "Josefin Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
+
 .alata-regular {
-  font-family: "Alata", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Alata", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .color1 {
     background-color: #FC9F5B;
 }
+
 .color2 {
     background-color: #FBD1A2;
 }
+
 .color3 {
     background-color: #ECE4B7;
 }
+
 .color4 {
     background-color: #7DCFB6;
 }
+
 .color5 {
     background-color: #33CA7F;
 }

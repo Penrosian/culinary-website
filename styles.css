@@ -173,7 +173,7 @@ footer #htmlcss {
 }
 
 .josefin-sans {
-    font-family: "Josefin Sans", serif;
+    font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -198,9 +198,9 @@ footer #htmlcss {
 }
 
 .color4 {
-    background-color: #6495ed;
+    background-color: #7DCFB6;
 }
 
 .color5 {
-    background-color: #7DCFB6;
+    background-color: #33CA7F;
 }

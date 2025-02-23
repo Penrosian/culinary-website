@@ -15,7 +15,7 @@
         rel="stylesheet">
     <style>
         #title-image {
-            width: 65%;
+            width: 55%;
             display: block;
             margin: auto;
         }
@@ -26,7 +26,7 @@
 
         #maingrid {
             display: grid;
-            grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template: 1fr 95vh 95vh / 1fr 1fr 1fr 1fr 1fr 1fr;
             gap: 2px;
             background-color: black;
             border: 2px solid black;
@@ -52,6 +52,24 @@
         #gridservetext {
             grid-area: 3 / 5 / 4 / 7;
         }
+
+        #foodleft-image {
+            height: 95vh;
+            display: block;
+            margin: auto;
+        }
+
+        #foodright-image {
+            height: 95vh;
+            display: block;
+            margin: auto;
+        }
+
+        #serve-image {
+            height: 95vh;
+            display: block;
+            margin: auto;
+        }
     </style>
 </head>
 
@@ -65,13 +83,13 @@
             <img src="src/image/offthepike-group.jpg" alt="The Off The Pike group in a group photo" id="title-image">
         </div>
         <div id="gridfoodleft" class="color1">
-            img
+            <img src="src/image/offthepike-food1.jpg" alt="One of the Off The Pike members making food" id="foodleft-image">
         </div>
         <div id="gridfoodright" class="color2">
-            img
+            <img src="src/image/offthepike-food2.jpg" alt="One of the Off The Pike members making food" id="foodright-image">
         </div>
         <div id="gridserve" class="color4">
-            img
+            <img src="src/image/offthepike-serving.jpg" alt="One of the Off The Pike members serving food" id="serve-image">
         </div>
         <div id="gridservetext" class="color5">
             text

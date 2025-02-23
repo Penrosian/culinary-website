@@ -28,13 +28,16 @@ footer #htmlcss {
 #globalnav {
     display: flex;
     width: 98vw;
-    height: 5vh;
+    height: 4vh;
     justify-content: space-between;
-    font-size: 16pt;
+    font-size: larger;
     background-color: #7DCFB6;
     border-bottom: 2px solid black;
     padding-left: 1vw;
     padding-right: 1vw;
+    position: sticky;
+    top: 0;
+    padding-top: 1vh;
 }
 
 #globalnav a:link {
@@ -133,11 +136,13 @@ footer #htmlcss {
 }
 
 .title {
-    font-family: "Titan One", serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 40pt;
+    font-size: 5em;
     margin: 5px;
+    text-align: center;
 }
 
 .tablenb td {

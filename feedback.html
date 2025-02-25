@@ -8,65 +8,81 @@
     <link href="styles.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Titan+One&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
- <form class="feedback" action="https://httpbin.org/post" method="post">  
+ <form action="https://httpbin.org/post" method="post">  
   <nav id="globalnav"><a href=".">Home</a> <a href="about-us.html">About Us</a> <a href="menu.html">Menu</a> <a
             href="order.html">Order</a> <a href="reservation.html">Make a reservation</a> <span>Give Feedback</span>
     </nav>
     <div class="dualcolumngrid">
-        <div class="gridhead color1"></div>
-        <div class="gridleft color4">
-					<p>Which topping do you like?</p>
-					<input type="checkbox" id="sprinkles" name="top">
-					<label for="checkbox">Sprinkles</label>
+        <div class="gridhead color1 josefin-sans">
+<h1 style="font-size:400%;">Feedback</h1></div>
+        <div class="gridleft color4 alata-regular">
+<h1><u>Hey! Please fill this form out.</u></h1>		
+<div class="feedback">
+					<p>How many stars do you give Off The Pike?</p>
+					<input type="radio" id="five" name="top">
+					<label for="five">Five stars</label>
 					<br>
-					<input type="checkbox" id="Magic" name="top">
-					<label for="checkbox">Magic shell</label>
+					<input type="radio" id="four" name="top">
+					<label for="four">Four stars</label>
 					<br>
-					<input type="checkbox" id="Chocolate" name="top">
-					<label for="checkbox">Chocolate chips</label>
+					<input type="radio" id="three" name="top">
+					<label for="three">Three stars</label>
 					<br>
-					<input type="checkbox" id="Gummy" name="top">
-					<label for="checkbox">Gummy bears</label>
+					<input type="radio" id="two" name="top">
+					<label for="two">Two stars</label>
 					<br>
-					<input type="checkbox" id="another" name="top">
-					<label for="checkbox">Other</label>
+					<input type="radio" id="one" name="top">
+					<label for="one">One star</label>
        
 					<br>
 					<br>
 
-				<label for="watch">What kind of entertainment should we have at the party?</label>
+				<label for="watch">How could we improve our services?</label>
 				<br>
 				<br>
 				<select id="watch" name="watch">
-				<option value="balloon">balloon Animals</option>
-				<option value="bounce">Bounce House</option>
-				<option value="clown">Clown</option>
-				<option value="cornhole">Cornhole</option>
-				<option value="dj">DJ</option>
-				<option value="face">Face-Painting</option>
-				<option value="magician">Magician</option>
+				<option value="balloon">Faster waiters</option>
+				<option value="bounce">Larger Menu</option>
+				<option value="clown">More seating</option>
+				<option value="cornhole">To loud</option>
+				<option value="dj">Complaints on food</option>
+				<option value="face">More profesionalism</option>
+				<option value="magician">Other</option>
 				</select>
+		</div>
 </div>
-        <div class="gridmain color3">
+        <div class="gridmain color3 alata-regular">
+<h1 style="font-size:205%; color:#ECE4B7">&nbsp;</h1>
+<div class="feedback">
+<label for="name">What is your name?</label>
+	<input type="text" id="name" name="name" placeholder="Princess Merida of DunBroch">
+<br>
+<br>
 <label for="email">What is  you email adress?</label>
                 <input type="email" id="email" name="email" placeholder="Your answer" required>
                 
 <br>
 <br>
 
-<label for="text">What is your phone number?</label>
-<input type="text" id="text" name="phone" placeholder="Your answer" required>
+<label for="num">What is your phone number?</label>
+<input type="text" id="num" name="phone" placeholder="Your answer" required>
 
 <br>
 <br>
 
-<label for="text">How many people will you bring to the party?</label>
+<label for="people">Any more comments/questions?</label>
 <input type="text" id="people" name="people" placeholder="Your answer" required>
 
 <br>
+</div>
 </div>
         <div class="gridright color4">
 </div>

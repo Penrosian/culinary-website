@@ -11,14 +11,65 @@
 </head>
 
 <body>
-    <nav id="globalnav"><a href=".">Home</a> <a href="about-us.html">About Us</a> <a href="menu.html">Menu</a> <a
+ <form class="feedback" action="https://httpbin.org/post" method="post">  
+  <nav id="globalnav"><a href=".">Home</a> <a href="about-us.html">About Us</a> <a href="menu.html">Menu</a> <a
             href="order.html">Order</a> <a href="reservation.html">Make a reservation</a> <span>Give Feedback</span>
     </nav>
     <div class="dualcolumngrid">
         <div class="gridhead color1"></div>
-        <div class="gridleft color4"></div>
-        <div class="gridmain color3"></div>
-        <div class="gridright color4"></div>
+        <div class="gridleft color4">
+					<p>Which topping do you like?</p>
+					<input type="checkbox" id="sprinkles" name="top">
+					<label for="checkbox">Sprinkles</label>
+					<br>
+					<input type="checkbox" id="Magic" name="top">
+					<label for="checkbox">Magic shell</label>
+					<br>
+					<input type="checkbox" id="Chocolate" name="top">
+					<label for="checkbox">Chocolate chips</label>
+					<br>
+					<input type="checkbox" id="Gummy" name="top">
+					<label for="checkbox">Gummy bears</label>
+					<br>
+					<input type="checkbox" id="another" name="top">
+					<label for="checkbox">Other</label>
+       
+					<br>
+					<br>
+
+				<label for="watch">What kind of entertainment should we have at the party?</label>
+				<br>
+				<br>
+				<select id="watch" name="watch">
+				<option value="balloon">balloon Animals</option>
+				<option value="bounce">Bounce House</option>
+				<option value="clown">Clown</option>
+				<option value="cornhole">Cornhole</option>
+				<option value="dj">DJ</option>
+				<option value="face">Face-Painting</option>
+				<option value="magician">Magician</option>
+				</select>
+</div>
+        <div class="gridmain color3">
+<label for="email">What is  you email adress?</label>
+                <input type="email" id="email" name="email" placeholder="Your answer" required>
+                
+<br>
+<br>
+
+<label for="text">What is your phone number?</label>
+<input type="text" id="text" name="phone" placeholder="Your answer" required>
+
+<br>
+<br>
+
+<label for="text">How many people will you bring to the party?</label>
+<input type="text" id="people" name="people" placeholder="Your answer" required>
+
+<br>
+</div>
+        <div class="gridright color4">
+</div>
         <div class="gridfoot color2"></div>
     </div>
 </body>

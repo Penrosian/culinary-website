@@ -191,9 +191,9 @@ footer #htmlcss {
 }
 
 .notable-regular {
-  font-family: "Notable", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Notable", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
@@ -216,22 +216,17 @@ footer #htmlcss {
 .color5 {
     background-color: #33CA7F;
 }
-.feedback{
-border: 3px solid;
-border-radius: 20px;
-margin:15px;
-padding:15px;
 
+.feedback {
+    border: 3px solid;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 15px;
 }
 
-.submit{
-font-size:1.2em;
-color:rbga(255,255,255,1.0);
-background-color:#ECE4b7;
-filter: box-shadow: 20px, 7px, 35px rbga(70,100,90,0.4);
-margin-top:10px;
-height:35px;
-
-
+.submit {
+    font-size: 1.2em;
+    background-color: #ECE4b7;
+    margin-top: 10px;
+    height: 35px;
 }
-

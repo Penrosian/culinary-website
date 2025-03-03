@@ -215,21 +215,25 @@ footer #htmlcss {
 
 .color5 {
     background-color: #33CA7F;
-} 
-.first{
-padding-left:500px;
-padding-top:20px;
 }
-#second{
-border: 2px solid; border-radius: 20px
-padding:50px;
-border-spacing:0px;
-margin:auto;
+
+.first {
+    padding-left: 500px;
+    padding-top: 20px;
 }
-#third{
-font-size:150%;
-padding-right:150px;
-padding-top:25px;
+
+#second {
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 50px;
+    border-spacing: 0px;
+    margin: auto;
+}
+
+#third {
+    font-size: 150%;
+    padding-right: 150px;
+    padding-top: 25px;
 }
 
 .feedback {
